@@ -17,8 +17,6 @@
 		06492CE91CCF3A0D00158712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492CE81CCF3A0D00158712 /* ViewController.swift */; };
 		06492CEE1CCF3A0D00158712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06492CED1CCF3A0D00158712 /* Assets.xcassets */; };
 		06492CF11CCF3A0D00158712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06492CEF1CCF3A0D00158712 /* LaunchScreen.storyboard */; };
-		06492CFC1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492CFB1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift */; };
-		06492D071CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492D061CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift */; };
 		06492D171CCF3BE700158712 /* TaipeiParkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492D161CCF3BE700158712 /* TaipeiParkVC.swift */; };
 		06492D191CCF516400158712 /* ParkListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492D181CCF516400158712 /* ParkListVC.swift */; };
 /* End PBXBuildFile section */
@@ -54,11 +52,7 @@
 		06492CF01CCF3A0D00158712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06492CF21CCF3A0D00158712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06492CF71CCF3A0D00158712 /* Demo_TaipeiPark.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_TaipeiPark.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06492CFB1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_TaipeiTravelTests.swift; sourceTree = "<group>"; };
-		06492CFD1CCF3A0D00158712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06492D021CCF3A0D00158712 /* Demo_TaipeiPark.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_TaipeiPark.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06492D061CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_TaipeiTravelUITests.swift; sourceTree = "<group>"; };
-		06492D081CCF3A0D00158712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06492D161CCF3BE700158712 /* TaipeiParkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaipeiParkVC.swift; sourceTree = "<group>"; };
 		06492D181CCF516400158712 /* ParkListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,8 +98,6 @@
 				0605F4121CCFAE68002191AE /* CoreLocation.framework */,
 				0605F4101CCFACCA002191AE /* MapKit.framework */,
 				06492CE51CCF3A0D00158712 /* Demo_TaipeiTravel */,
-				06492CFA1CCF3A0D00158712 /* Demo_TaipeiTravelTests */,
-				06492D051CCF3A0D00158712 /* Demo_TaipeiTravelUITests */,
 				06492CE41CCF3A0D00158712 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,24 +128,6 @@
 				06492CF21CCF3A0D00158712 /* Info.plist */,
 			);
 			path = Demo_TaipeiTravel;
-			sourceTree = "<group>";
-		};
-		06492CFA1CCF3A0D00158712 /* Demo_TaipeiTravelTests */ = {
-			isa = PBXGroup;
-			children = (
-				06492CFB1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift */,
-				06492CFD1CCF3A0D00158712 /* Info.plist */,
-			);
-			path = Demo_TaipeiTravelTests;
-			sourceTree = "<group>";
-		};
-		06492D051CCF3A0D00158712 /* Demo_TaipeiTravelUITests */ = {
-			isa = PBXGroup;
-			children = (
-				06492D061CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift */,
-				06492D081CCF3A0D00158712 /* Info.plist */,
-			);
-			path = Demo_TaipeiTravelUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06492CFC1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06492D071CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
