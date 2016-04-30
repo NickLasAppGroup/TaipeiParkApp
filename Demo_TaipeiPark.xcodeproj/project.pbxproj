@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0605F40B1CCF6DC7002191AE /* apiIn.json in Resources */ = {isa = PBXBuildFile; fileRef = 0605F40A1CCF6DC7002191AE /* apiIn.json */; };
+		0605F40D1CCF9AD6002191AE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605F40C1CCF9AD6002191AE /* InfoViewController.swift */; };
+		0605F40F1CCFACA2002191AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605F40E1CCFACA2002191AE /* MapViewController.swift */; };
+		0605F4111CCFACCA002191AE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0605F4101CCFACCA002191AE /* MapKit.framework */; };
+		0605F4131CCFAE68002191AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0605F4121CCFAE68002191AE /* CoreLocation.framework */; };
+		0605F4171CD0FFCD002191AE /* frontpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0605F4161CD0FFCD002191AE /* frontpage.png */; };
 		06492CE71CCF3A0D00158712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492CE61CCF3A0D00158712 /* AppDelegate.swift */; };
 		06492CE91CCF3A0D00158712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492CE81CCF3A0D00158712 /* ViewController.swift */; };
-		06492CEC1CCF3A0D00158712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06492CEA1CCF3A0D00158712 /* Main.storyboard */; };
 		06492CEE1CCF3A0D00158712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06492CED1CCF3A0D00158712 /* Assets.xcassets */; };
 		06492CF11CCF3A0D00158712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06492CEF1CCF3A0D00158712 /* LaunchScreen.storyboard */; };
 		06492CFC1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492CFB1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift */; };
 		06492D071CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492D061CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift */; };
+		06492D171CCF3BE700158712 /* TaipeiParkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492D161CCF3BE700158712 /* TaipeiParkVC.swift */; };
+		06492D191CCF516400158712 /* ParkListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06492D181CCF516400158712 /* ParkListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +41,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06492CE31CCF3A0D00158712 /* Demo_TaipeiTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_TaipeiTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0605F40A1CCF6DC7002191AE /* apiIn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apiIn.json; sourceTree = "<group>"; };
+		0605F40C1CCF9AD6002191AE /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0605F40E1CCFACA2002191AE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0605F4101CCFACCA002191AE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0605F4121CCFAE68002191AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0605F4161CD0FFCD002191AE /* frontpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontpage.png; sourceTree = "<group>"; };
+		06492CE31CCF3A0D00158712 /* Demo_TaipeiPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_TaipeiPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06492CE61CCF3A0D00158712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06492CE81CCF3A0D00158712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06492CEB1CCF3A0D00158712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06492CED1CCF3A0D00158712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06492CF01CCF3A0D00158712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06492CF21CCF3A0D00158712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06492CF71CCF3A0D00158712 /* Demo_TaipeiTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_TaipeiTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06492CF71CCF3A0D00158712 /* Demo_TaipeiPark.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_TaipeiPark.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06492CFB1CCF3A0D00158712 /* Demo_TaipeiTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_TaipeiTravelTests.swift; sourceTree = "<group>"; };
 		06492CFD1CCF3A0D00158712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06492D021CCF3A0D00158712 /* Demo_TaipeiTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_TaipeiTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06492D021CCF3A0D00158712 /* Demo_TaipeiPark.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_TaipeiPark.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06492D061CCF3A0D00158712 /* Demo_TaipeiTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_TaipeiTravelUITests.swift; sourceTree = "<group>"; };
 		06492D081CCF3A0D00158712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06492D161CCF3BE700158712 /* TaipeiParkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaipeiParkVC.swift; sourceTree = "<group>"; };
+		06492D181CCF516400158712 /* ParkListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0605F4131CCFAE68002191AE /* CoreLocation.framework in Frameworks */,
+				0605F4111CCFACCA002191AE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0605F4181CD10D21002191AE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0605F4161CD0FFCD002191AE /* frontpage.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		06492CDA1CCF3A0D00158712 = {
 			isa = PBXGroup;
 			children = (
+				0605F4121CCFAE68002191AE /* CoreLocation.framework */,
+				0605F4101CCFACCA002191AE /* MapKit.framework */,
 				06492CE51CCF3A0D00158712 /* Demo_TaipeiTravel */,
 				06492CFA1CCF3A0D00158712 /* Demo_TaipeiTravelTests */,
 				06492D051CCF3A0D00158712 /* Demo_TaipeiTravelUITests */,
@@ -87,9 +113,9 @@
 		06492CE41CCF3A0D00158712 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06492CE31CCF3A0D00158712 /* Demo_TaipeiTravel.app */,
-				06492CF71CCF3A0D00158712 /* Demo_TaipeiTravelTests.xctest */,
-				06492D021CCF3A0D00158712 /* Demo_TaipeiTravelUITests.xctest */,
+				06492CE31CCF3A0D00158712 /* Demo_TaipeiPark.app */,
+				06492CF71CCF3A0D00158712 /* Demo_TaipeiPark.xctest */,
+				06492D021CCF3A0D00158712 /* Demo_TaipeiPark.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +123,14 @@
 		06492CE51CCF3A0D00158712 /* Demo_TaipeiTravel */ = {
 			isa = PBXGroup;
 			children = (
+				0605F4181CD10D21002191AE /* Image */,
 				06492CE61CCF3A0D00158712 /* AppDelegate.swift */,
 				06492CE81CCF3A0D00158712 /* ViewController.swift */,
-				06492CEA1CCF3A0D00158712 /* Main.storyboard */,
+				06492D181CCF516400158712 /* ParkListVC.swift */,
+				06492D161CCF3BE700158712 /* TaipeiParkVC.swift */,
+				0605F40C1CCF9AD6002191AE /* InfoViewController.swift */,
+				0605F40E1CCFACA2002191AE /* MapViewController.swift */,
+				0605F40A1CCF6DC7002191AE /* apiIn.json */,
 				06492CED1CCF3A0D00158712 /* Assets.xcassets */,
 				06492CEF1CCF3A0D00158712 /* LaunchScreen.storyboard */,
 				06492CF21CCF3A0D00158712 /* Info.plist */,
@@ -128,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06492CE21CCF3A0D00158712 /* Demo_TaipeiTravel */ = {
+		06492CE21CCF3A0D00158712 /* Demo_TaipeiPark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06492D0B1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiTravel" */;
+			buildConfigurationList = 06492D0B1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiPark" */;
 			buildPhases = (
 				06492CDF1CCF3A0D00158712 /* Sources */,
 				06492CE01CCF3A0D00158712 /* Frameworks */,
@@ -140,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = Demo_TaipeiTravel;
+			name = Demo_TaipeiPark;
 			productName = Demo_TaipeiTravel;
-			productReference = 06492CE31CCF3A0D00158712 /* Demo_TaipeiTravel.app */;
+			productReference = 06492CE31CCF3A0D00158712 /* Demo_TaipeiPark.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06492CF61CCF3A0D00158712 /* Demo_TaipeiTravelTests */ = {
+		06492CF61CCF3A0D00158712 /* Demo_TaipeiParkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06492D0E1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiTravelTests" */;
+			buildConfigurationList = 06492D0E1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiParkTests" */;
 			buildPhases = (
 				06492CF31CCF3A0D00158712 /* Sources */,
 				06492CF41CCF3A0D00158712 /* Frameworks */,
@@ -158,14 +189,14 @@
 			dependencies = (
 				06492CF91CCF3A0D00158712 /* PBXTargetDependency */,
 			);
-			name = Demo_TaipeiTravelTests;
+			name = Demo_TaipeiParkTests;
 			productName = Demo_TaipeiTravelTests;
-			productReference = 06492CF71CCF3A0D00158712 /* Demo_TaipeiTravelTests.xctest */;
+			productReference = 06492CF71CCF3A0D00158712 /* Demo_TaipeiPark.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06492D011CCF3A0D00158712 /* Demo_TaipeiTravelUITests */ = {
+		06492D011CCF3A0D00158712 /* Demo_TaipeiParkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06492D111CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiTravelUITests" */;
+			buildConfigurationList = 06492D111CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiParkUITests" */;
 			buildPhases = (
 				06492CFE1CCF3A0D00158712 /* Sources */,
 				06492CFF1CCF3A0D00158712 /* Frameworks */,
@@ -176,9 +207,9 @@
 			dependencies = (
 				06492D041CCF3A0D00158712 /* PBXTargetDependency */,
 			);
-			name = Demo_TaipeiTravelUITests;
+			name = Demo_TaipeiParkUITests;
 			productName = Demo_TaipeiTravelUITests;
-			productReference = 06492D021CCF3A0D00158712 /* Demo_TaipeiTravelUITests.xctest */;
+			productReference = 06492D021CCF3A0D00158712 /* Demo_TaipeiPark.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +224,7 @@
 				TargetAttributes = {
 					06492CE21CCF3A0D00158712 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 7GD8B8F344;
+						DevelopmentTeam = 58U74FE25X;
 					};
 					06492CF61CCF3A0D00158712 = {
 						CreatedOnToolsVersion = 7.3;
@@ -207,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06492CDE1CCF3A0D00158712 /* Build configuration list for PBXProject "Demo_TaipeiTravel" */;
+			buildConfigurationList = 06492CDE1CCF3A0D00158712 /* Build configuration list for PBXProject "Demo_TaipeiPark" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +251,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06492CE21CCF3A0D00158712 /* Demo_TaipeiTravel */,
-				06492CF61CCF3A0D00158712 /* Demo_TaipeiTravelTests */,
-				06492D011CCF3A0D00158712 /* Demo_TaipeiTravelUITests */,
+				06492CE21CCF3A0D00158712 /* Demo_TaipeiPark */,
+				06492CF61CCF3A0D00158712 /* Demo_TaipeiParkTests */,
+				06492D011CCF3A0D00158712 /* Demo_TaipeiParkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +263,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0605F4171CD0FFCD002191AE /* frontpage.png in Resources */,
 				06492CF11CCF3A0D00158712 /* LaunchScreen.storyboard in Resources */,
 				06492CEE1CCF3A0D00158712 /* Assets.xcassets in Resources */,
-				06492CEC1CCF3A0D00158712 /* Main.storyboard in Resources */,
+				0605F40B1CCF6DC7002191AE /* apiIn.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06492CE91CCF3A0D00158712 /* ViewController.swift in Sources */,
+				0605F40F1CCFACA2002191AE /* MapViewController.swift in Sources */,
 				06492CE71CCF3A0D00158712 /* AppDelegate.swift in Sources */,
+				06492D191CCF516400158712 /* ParkListVC.swift in Sources */,
+				06492D171CCF3BE700158712 /* TaipeiParkVC.swift in Sources */,
+				0605F40D1CCF9AD6002191AE /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,25 +321,17 @@
 /* Begin PBXTargetDependency section */
 		06492CF91CCF3A0D00158712 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06492CE21CCF3A0D00158712 /* Demo_TaipeiTravel */;
+			target = 06492CE21CCF3A0D00158712 /* Demo_TaipeiPark */;
 			targetProxy = 06492CF81CCF3A0D00158712 /* PBXContainerItemProxy */;
 		};
 		06492D041CCF3A0D00158712 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06492CE21CCF3A0D00158712 /* Demo_TaipeiTravel */;
+			target = 06492CE21CCF3A0D00158712 /* Demo_TaipeiPark */;
 			targetProxy = 06492D031CCF3A0D00158712 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		06492CEA1CCF3A0D00158712 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06492CEB1CCF3A0D00158712 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		06492CEF1CCF3A0D00158712 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -404,10 +432,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Demo_TaipeiTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipeiTravel";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipePark";
+				PRODUCT_NAME = Demo_TaipeiPark;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -415,10 +447,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Demo_TaipeiTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipeiTravel";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipePark";
+				PRODUCT_NAME = Demo_TaipeiPark;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -429,8 +465,8 @@
 				INFOPLIST_FILE = Demo_TaipeiTravelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipeiTravelTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_TaipeiTravel.app/Demo_TaipeiTravel";
+				PRODUCT_NAME = Demo_TaipeiPark;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_TaipeiPark.app/Demo_TaipeiPark";
 			};
 			name = Debug;
 		};
@@ -441,8 +477,8 @@
 				INFOPLIST_FILE = Demo_TaipeiTravelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipeiTravelTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_TaipeiTravel.app/Demo_TaipeiTravel";
+				PRODUCT_NAME = Demo_TaipeiPark;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_TaipeiPark.app/Demo_TaipeiPark";
 			};
 			name = Release;
 		};
@@ -452,7 +488,7 @@
 				INFOPLIST_FILE = Demo_TaipeiTravelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipeiTravelUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo_TaipeiPark;
 				TEST_TARGET_NAME = Demo_TaipeiTravel;
 			};
 			name = Debug;
@@ -463,7 +499,7 @@
 				INFOPLIST_FILE = Demo_TaipeiTravelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EH.Demo-TaipeiTravelUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo_TaipeiPark;
 				TEST_TARGET_NAME = Demo_TaipeiTravel;
 			};
 			name = Release;
@@ -471,7 +507,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06492CDE1CCF3A0D00158712 /* Build configuration list for PBXProject "Demo_TaipeiTravel" */ = {
+		06492CDE1CCF3A0D00158712 /* Build configuration list for PBXProject "Demo_TaipeiPark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06492D091CCF3A0D00158712 /* Debug */,
@@ -480,29 +516,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06492D0B1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiTravel" */ = {
+		06492D0B1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiPark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06492D0C1CCF3A0D00158712 /* Debug */,
 				06492D0D1CCF3A0D00158712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		06492D0E1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiTravelTests" */ = {
+		06492D0E1CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiParkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06492D0F1CCF3A0D00158712 /* Debug */,
 				06492D101CCF3A0D00158712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		06492D111CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiTravelUITests" */ = {
+		06492D111CCF3A0D00158712 /* Build configuration list for PBXNativeTarget "Demo_TaipeiParkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06492D121CCF3A0D00158712 /* Debug */,
 				06492D131CCF3A0D00158712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

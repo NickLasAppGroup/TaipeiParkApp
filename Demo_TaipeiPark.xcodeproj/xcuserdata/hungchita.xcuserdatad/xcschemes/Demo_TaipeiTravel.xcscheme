@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06492CE21CCF3A0D00158712"
-               BuildableName = "Demo_TaipeiTravel.app"
-               BlueprintName = "Demo_TaipeiTravel"
-               ReferencedContainer = "container:Demo_TaipeiTravel.xcodeproj">
+               BuildableName = "Demo_TaipeiPark.app"
+               BlueprintName = "Demo_TaipeiPark"
+               ReferencedContainer = "container:Demo_TaipeiPark.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06492CF61CCF3A0D00158712"
-               BuildableName = "Demo_TaipeiTravelTests.xctest"
-               BlueprintName = "Demo_TaipeiTravelTests"
-               ReferencedContainer = "container:Demo_TaipeiTravel.xcodeproj">
+               BuildableName = "Demo_TaipeiPark.xctest"
+               BlueprintName = "Demo_TaipeiParkTests"
+               ReferencedContainer = "container:Demo_TaipeiPark.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06492D011CCF3A0D00158712"
-               BuildableName = "Demo_TaipeiTravelUITests.xctest"
-               BlueprintName = "Demo_TaipeiTravelUITests"
-               ReferencedContainer = "container:Demo_TaipeiTravel.xcodeproj">
+               BuildableName = "Demo_TaipeiPark.xctest"
+               BlueprintName = "Demo_TaipeiParkUITests"
+               ReferencedContainer = "container:Demo_TaipeiPark.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06492CE21CCF3A0D00158712"
-            BuildableName = "Demo_TaipeiTravel.app"
-            BlueprintName = "Demo_TaipeiTravel"
-            ReferencedContainer = "container:Demo_TaipeiTravel.xcodeproj">
+            BuildableName = "Demo_TaipeiPark.app"
+            BlueprintName = "Demo_TaipeiPark"
+            ReferencedContainer = "container:Demo_TaipeiPark.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06492CE21CCF3A0D00158712"
-            BuildableName = "Demo_TaipeiTravel.app"
-            BlueprintName = "Demo_TaipeiTravel"
-            ReferencedContainer = "container:Demo_TaipeiTravel.xcodeproj">
+            BuildableName = "Demo_TaipeiPark.app"
+            BlueprintName = "Demo_TaipeiPark"
+            ReferencedContainer = "container:Demo_TaipeiPark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06492CE21CCF3A0D00158712"
-            BuildableName = "Demo_TaipeiTravel.app"
-            BlueprintName = "Demo_TaipeiTravel"
-            ReferencedContainer = "container:Demo_TaipeiTravel.xcodeproj">
+            BuildableName = "Demo_TaipeiPark.app"
+            BlueprintName = "Demo_TaipeiPark"
+            ReferencedContainer = "container:Demo_TaipeiPark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

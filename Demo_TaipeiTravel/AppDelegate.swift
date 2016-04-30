@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var tableVC: ViewController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.backgroundColor = UIColor.clearColor()
+        
+        tableVC = ViewController()
+        tableVC?.refreshWithFrame(window!.frame)
+        window?.rootViewController = tableVC!
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
